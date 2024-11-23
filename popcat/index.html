@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="board"></div>
+
+    <script>
+      let timeout;
+      const img = document.createElement("img");
+      img.src = "catclose.png";
+      img.id = "popcat";
+      img.width = 300;
+      img.height = 300;
+
+      let board = document.getElementById("board");
+      board.insertBefore(img, board.firstChild);
+
+      document.addEventListener("click", function () {
+        let popcat = document.getElementById("popcat");
+        popcat.src = "catopen.png";
+        timeout = setTimeout(() => {
+          popcat.src = "catclose.png";
+        }, 200);
+        localStorage.setItem("count", 50);
+      });
+      clearTimeout(timeout);
+    </script>
+  </body>
+</html>
