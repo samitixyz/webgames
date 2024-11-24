@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PNGCLICK WITH FIRESTORE</title>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+      import {
+        getFirestore,
+        doc,
+        addDoc,
+        increment,
+        updateDoc,
+      } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js"; // Add Firestore imports
+
+      const firebaseConfig = {
+        apiKey: "#",
+        authDomain: "#",
+        projectId: "#",
+        storageBucket: "#",
+        messagingSenderId: "#",
+        appId: "#",
+        measurementId: "#",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const database = getFirestore(app);
+
+      // Create: Save new object to database
+      const addData = async () => {
+        const usersDoc = doc(database, "popcat", "info");
+        try {
+          await updateDoc(usersDoc, {
+            count: increment(1),
+          });
+          console.log("Data added successfully");
+        } catch (error) {
+          console.error("Error adding document: ", error);
+          alert("fail");
+        }
+      };
+
+      window.addEventListener("DOMContentLoaded", () => {
+        const saveButton = document.getElementById("saveButton");
+        saveButton.addEventListener("click", addData);
+      });
+    </script>
+  </head>
+  <body>
+    <h1>PNGCLICK</h1>
+    <button id="saveButton">Click</button>
+    <h2>Count:</h2>
+  </body>
+</html>
