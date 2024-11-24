@@ -9,25 +9,34 @@
     <div id="board"></div>
 
     <script>
-      let timeout;
-      const img = document.createElement("img");
-      img.src = "catclose.png";
-      img.id = "popcat";
-      img.width = 300;
-      img.height = 300;
+      let timeout
+      let isClick
+      
+      const img = document.createElement("img")
+      img.src = "catclose.png"
+      img.id = "popcat"
+      img.width = 300
+      img.height = 300
 
-      let board = document.getElementById("board");
-      board.insertBefore(img, board.firstChild);
+      let board = document.getElementById("board")
+      board.insertBefore(img, board.firstChild)
+      const audio = new Audio("pop.mp3")
 
       document.addEventListener("click", function () {
-        let popcat = document.getElementById("popcat");
-        popcat.src = "catopen.png";
-        timeout = setTimeout(() => {
-          popcat.src = "catclose.png";
-        }, 200);
-        localStorage.setItem("count", 50);
+        isClick = true
+        if(isClick) {
+          audio.play()
+          let popcat = document.getElementById("popcat")
+          popcat.src = "catopen.png"
+          timeout = setTimeout(() => {
+            popcat.src = "catclose.png"
+          }, 200);
+          localStorage.setItem("count", 50)
+        }
+        isClick = false
+        return;
       });
-      clearTimeout(timeout);
+      clearTimeout(timeout)
     </script>
   </body>
 </html>
