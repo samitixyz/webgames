@@ -13,4 +13,4 @@ Welcome to the **Webgame Repository**, a collection of fun and interactive brows
 1. Navigate to the folder of your choice to explore the files and assets.
 2. Visit the provided link to play the game directly in your browser.
 
-Happy Coding! 🎮
+Happy Coding! 🛠️
