@@ -10,32 +10,34 @@
     <p>Click Count: <span id="click-count">0</span></p>
 
     <script>
-      const clickCountDisplay = document.getElementById("click-count");
-      let clickCount = parseInt(localStorage.getItem("count") || "0", 10);
-      clickCountDisplay.textContent = clickCount;
-
-      const img = document.createElement("img");
-      img.src = "catclose.png";
-      img.id = "popcat";
-      img.width = 300;
-      img.height = 300;
-
-      const board = document.getElementById("board");
-      board.insertBefore(img, board.firstChild);
-
-      const audio = new Audio("pop.mp3");
-
-      img.onmousedown = () => {
-        audio.play();
-        img.src = "catopen.png";
-      };
-
-      img.onmouseup = () => {
-        img.src = "catclose.png";
-
-        clickCount += 1;
-        localStorage.setItem("count", clickCount);
+      window.onload = () => {
+        const clickCountDisplay = document.getElementById("click-count");
+        let clickCount = parseInt(localStorage.getItem("count") || "0", 10);
         clickCountDisplay.textContent = clickCount;
+
+        const img = document.createElement("img");
+        img.src = "catclose.png";
+        img.id = "popcat";
+        img.width = 300;
+        img.height = 300;
+
+        const board = document.getElementById("board");
+        board.insertBefore(img, board.firstChild);
+
+        const audio = new Audio("pop.mp3");
+
+        img.onmousedown = () => {
+          audio.play();
+          img.src = "catopen.png";
+        };
+
+        img.onmouseup = () => {
+          img.src = "catclose.png";
+
+          clickCount += 1;
+          localStorage.setItem("count", clickCount);
+          clickCountDisplay.textContent = clickCount;
+        };
       };
     </script>
   </body>
