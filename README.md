@@ -1,16 +1,16 @@
-# Webgame Repository
+# Course Index Assignment Tracker
 
-Welcome to the **Webgame Repository**, a collection of fun and interactive browser-based games. 
+This table tracks the progress of students across six teaching sessions ("Rounds") and includes a row to specify the course topics for each session. The "Topic Study" column provides additional notes for specific topics studied.
 
-## Folder Structure
+## Course Tracker Table
 
-| Folder Name | Description                | Link                                           |
-|-------------|----------------------------|------------------------------------------------|
-| popcat      | A simple, fun web game     | [Click here to play](https://clickpng.netlify.app/) |
+| Index | Student Name       | Topic Study        | Round 1       | Round 2       | Round 3       | Round 4       | Round 5       | Round 6       |
+|-------|--------------------|--------------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|       | **Course Topics**  | [Topic Details]    | [Topic 1]     | [Topic 2]     | [Topic 3]     | [Topic 4]     | [Topic 5]     | [Topic 6]     |
+| 1     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
+| 2     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
+| 3     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
+| 4     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
+| 5     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
+| 6     | [Student Name]     | [Study Notes]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      | [Status]      |
 
-## How to Use
-
-1. Navigate to the folder of your choice to explore the files and assets.
-2. Visit the provided link to play the game directly in your browser.
-
-Happy Coding! 👩🏻‍💻
