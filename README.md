@@ -1,9 +1,8 @@
-# Course Index Assignment Tracker
+# Classroom Tracker
 
-This table tracks the progress of students across six teaching sessions ("Rounds") and includes a row to specify the course topics for each session. The "Topic Study" column provides additional notes for specific topics studied.
+This table tracks student progress across six teaching sessions ("Rounds") and outlines the course topics for each session. Additional notes can be added for specific topics studied.  
 
-<figure><img src="whiteboard.jpg" alt="Designed by macrovector / Freepik http://www.freepik.com" width="500" height="300" /> <figcaption>Designed by macrovector</figcaption> </figure>
-
+<figure><img src="whiteboard.jpg" alt="Designed by macrovector / Freepik http://www.freepik.com" width="500" height="300" /></figure>
 
 ## Course Tracker Table
 
@@ -19,3 +18,4 @@ This table tracks the progress of students across six teaching sessions ("Rounds
 + Live Share - Miscrosoft 
 + Live Preview - Miscrosoft 
 
+[🔙 Back to Main Branch](https://github.com/doktorrick/webgames/tree/main)  
