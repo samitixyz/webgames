@@ -6,7 +6,7 @@ Welcome to the class! Please add your name and the date from Saturday, November 
 
 | Seat  | Name           | Date (YYYY-MM-DD) |
 |-------|----------------|--------------------|
-| 1A    | [Your Name]    | 2024-11-23        |
+| 1A    | [Ryuji]    | 2024-11-23        |
 | 1B    | [Your Name]    | 2024-11-23        |
 | 1C    | [Your Name]    | 2024-11-23        |
 | 2A    | [Your Name]    | 2024-11-23        |
