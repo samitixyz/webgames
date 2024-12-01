@@ -27,11 +27,11 @@
 
         img.onmousedown = () => {
           audio.play();
-          img.src = "catopen.png";
+          img.src = "catopen.png?v=1";
         };
 
         img.onmouseup = () => {
-          img.src = "catclose.png";
+          img.src = "catclose.png?v=1";
 
           clickCount += 1;
           localStorage.setItem("count", clickCount);
