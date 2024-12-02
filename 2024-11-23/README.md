@@ -2,11 +2,11 @@
 
 Welcome to the class! Please add your name and the date from Saturday, November 23, 2024, to the table below by making a pull request. This is a fun way to learn about GitHub and practice using pull requests while marking attendance.
 
-## Roll Call Table
+## Roll Call Table 🪑
 
 | Seat  | Name           | Date (YYYY-MM-DD) |
 |-------|----------------|--------------------|
-| 1A    | [Ryuji]    | 2024-11-23        |
+| 1A    | Ryuji    | 2024-11-23        |
 | 1B    | [Your Name]    | 2024-11-23        |
 | 1C    | [Your Name]    | 2024-11-23        |
 | 2A    | [Your Name]    | 2024-11-23        |
