@@ -6,15 +6,15 @@ Welcome to the class! Please add your name and the current date to the table bel
 
 | Seat  | Name           | Date (YYYY-MM-DD) |
 |-------|----------------|--------------------|
-| 1A    | [Your Name]    | 2024-11-30        |
-| 1B    | [Your Name]    | 2024-11-30        |
-| 1C    | [Your Name]    | 2024-11-30        |
-| 2A    | [Your Name]    | 2024-11-30        |
-| 2B    | [Your Name]    | 2024-11-30        |
-| 2C    | [Your Name]    | 2024-11-30        |
-| 3A    | [Your Name]    | 2024-11-30        |
-| 3B    | [Your Name]    | 2024-11-30        |
-| 3C    | [Your Name]    | 2024-11-30        |
+| 1A    | [Your Name]    | 2024-12-01        |
+| 1B    | [Your Name]    | 2024-12-01        |
+| 1C    | [Your Name]    | 2024-12-01        |
+| 2A    | [Your Name]    | 2024-12-01        |
+| 2B    | [Your Name]    | 2024-12-01        |
+| 2C    | [Your Name]    | 2024-12-01        |
+| 3A    | [Your Name]    | 2024-12-01        |
+| 3B    | [Your Name]    | 2024-12-01        |
+| 3C    | [Your Name]    | 2024-12-01        |
 
 ### How to Check In
 1. Fork this repository.
