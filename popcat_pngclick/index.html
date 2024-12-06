@@ -8,8 +8,8 @@
   <body>
     <div id="board"></div>
     <p>Click Count: <span id="click-count">0</span></p>
-
-    <script>
+    
+    <script type="module">
       const clickCountDisplay = document.getElementById("click-count");
       let clickCount = parseInt(localStorage.getItem("count") || "0");
       clickCountDisplay.textContent = clickCount;
