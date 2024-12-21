@@ -1,6 +1,6 @@
 # Classroom Roll Call
 
-Welcome to the class! Please add your name and the current date to the table below by making a pull request. This is a fun way to learn about GitHub and practice using pull requests while marking attendance.
+Welcome to the class! Please add your name and the current date to the table below by making a pull request. This is a fun way to learn about GitHub and practice using pull requests while marking attendance. สำหรับการลงชื่อ
 
 ## Roll Call Table
 
