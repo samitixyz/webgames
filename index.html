@@ -8,6 +8,11 @@
     <style>
         body {
             margin: 0;
+            display: flex; /* Use Flexbox */
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+            height: 100vh; /* Full height of the viewport */
+            background-color: black; /* Background color */
             overflow: hidden;
         }
         canvas {
@@ -18,7 +23,7 @@
     </style>
 </head>
 <body>
-    <canvas id="gameCanvas"></canvas>  
+    <canvas class="flex mx-auto" id="gameCanvas"></canvas>  
     <script src="grid.js"></script>
 </body>
 </html>
