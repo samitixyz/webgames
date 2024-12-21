@@ -6,7 +6,7 @@ Welcome to the class! Please add your name and the current date to the table bel
 
 | Seat  | Name           | Date (YYYY-MM-DD) |
 |-------|----------------|--------------------|
-| 1A    | [Your Name]    | 2024-12-08        |
+| 1A    | [Ryuji]    | 2024-12-08        |
 | 1B    | [Your Name]    | 2024-12-08        |
 | 1C    | [Your Name]    | 2024-12-08        |
 | 2A    | [Your Name]    | 2024-12-08        |
